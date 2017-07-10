@@ -1,0 +1,8 @@
+[user]
+	name = hatcher
+	email = hatcherfang@163.com
+[color]
+        ui = False
+	status = auto
+	diff = auto
+	branch = --help
