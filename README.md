@@ -17,9 +17,9 @@
 >>>>- git merge <branch name> // second merge <branch name> to master  
 >>>>- git branch -d <branch name> // to delete branch <branch name>  
 >>>>- git branch -D <branch name> // to force delete branch <branch name>  
->> tag function: to traceback errors.  
+> tag function: to traceback errors.  
 >>>>- git tag // to show tags  
 >>>>- git tag <tag name> // to renew a tag named <tag name>  
 >>>>- git checkout <tag name> // to switch the tag to <tag name>  
->> to login github and submit code to github  
+> to login github and submit code to github  
 `"refer url:http://stormzhang.com/github/2016/06/04/learn-github-from-zero4/"`  
