@@ -11,9 +11,11 @@
 - git checkout <branch name> // to switch to branch <branch name>  
 - git checkout -b <branch name> // to renew a branch <branch name> and auto-switch to it.  
 ## [Get remote branch into local](https://www.cnblogs.com/fuyanwen/archive/2012/12/29/2838676.html)  
-1. fetch remote branch to local, if branchname not exist in local, it will be created    
+- list all of the branch  
+`git branch -a`  
+- fetch remote branch to local, if branchname not exist in local, it will be created    
 `git fetch origin "remote-branchname":"local-branchname"`   
-2. checkout remote branch to local and switch to the branch   
+- checkout remote branch to local and switch to the branch   
 `git checkout origin/"remote-branchname" -b "local-branchname"`  
 
 ## Merge switch branch to master branch step  
