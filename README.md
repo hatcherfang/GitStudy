@@ -43,5 +43,17 @@
 - git diff <filename> // to diff the file <filename> with updated   
 - git rm <filename> // to remove the file from repository  
 - git mv <filename1> <filename2> // to rename the <filename1> to <filename2>  
+## [Git SSH configure](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)    
+1. Checked for existing SSH keys  
+`ls ~/.ssh/`  
+If id_rsa.pub not exists, go to step 2.
+
+2. Generated a new SSH key and added it to the ssh-agent   
+- `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`  
+- `ssh-add ~/.ssh/id_rsa`  
+3. copy SSH key `id_rsa.pub`(~/.ssh/id_rsa.pub) to your github account   
+4. try to use git clone `repo path` to download code  
+
+
 ## Git workflow  
 ![workflow](https://github.com/hatcherfang/git-study/blob/master/workflow.jpg)  
