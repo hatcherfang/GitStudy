@@ -45,3 +45,8 @@
 - git mv <filename1> <filename2> // to rename the <filename1> to <filename2>  
 ## Git workflow  
 ![workflow](https://github.com/hatcherfang/git-study/blob/master/workflow.jpg)  
+## [Git create remote branch](https://blog.csdn.net/github_38395241/article/details/77198673)  
+git checkout -b my-test  //create local branch my-test under current branch  
+git push origin my-test  //push my-test branch to remote   
+git branch --set-upstream-to=origin/my-test //将本地分支my-test关联到远程分支my-test上   
+git branch -a // to check remote branch  
