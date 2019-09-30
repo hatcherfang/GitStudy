@@ -27,6 +27,10 @@
 - git tag // to show tags  
 - git tag <tag name> // to renew a tag named <tag name>  
 - git checkout <tag name> // to switch the tag to <tag name>  
+- git tag -a <tag name> -m "comment"  // to add annotated tag with comment  
+- git tag -d <tag name>  // delete local tag  
+- git push origin :refs/tags/<tag name> // delete remote tag   
+- git push origin <tag name>  // to commit tag   
 ## Login github and submit code to github  
  `to set the authentication refer http://stormzhang.com/github/2016/06/04/learn-github-from-zero4/`  
 - git clone git@github.com:<username>/<repository>.git  // to get the remote repository  
