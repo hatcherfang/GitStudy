@@ -23,6 +23,11 @@
 - git merge <branch name> // second merge <branch name> to master  
 - git branch -d <branch name> // to delete branch <branch name>  
 - git branch -D <branch name> // to force delete branch <branch name>  
+```
+# delete remote branch  
+git branch -r -d origin/branch-name 
+git push origin :branch-name
+```
 ## Tag function: to traceback errors.  
 - git tag // to show tags  
 - git tag <tag name> // to renew a tag named <tag name>  
